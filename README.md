@@ -3,7 +3,7 @@
 <p id="description">SmartChat is a simple and clean AI chatbot app built with React. It lets users type in prompts see real-time responses and revisit recent chats. The goal was to create a smooth user-friendly interface with a modern feel—perfect for anyone experimenting with AI or looking to build their own smart assistant.</p>
 
 <p align="center">
-  <img src="/demo.png" alt="SmartChat Demo" />
+  <img src="./public/demo.png" alt="SmartChat Demo" />
 </p>
   
 <h2>🧐 Features</h2>
