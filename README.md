@@ -1,12 +1,58 @@
-# React + Vite
+<h1 align="center" id="title">SmartChat</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p id="description">SmartChat is a simple and clean AI chatbot app built with React. It lets users type in prompts see real-time responses and revisit recent chats. The goal was to create a smooth user-friendly interface with a modern feel—perfect for anyone experimenting with AI or looking to build their own smart assistant.</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="/demo.png" alt="SmartChat Demo" />
+</p>
+  
+<h2>🧐 Features</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here're some of the project's best features:
 
-## Expanding the ESLint configuration
+*   Responsive layout with Sidebar and Main Chat window
+*   Maintains recent prompts and chat history
+*   Loader shown during response fetching
+*   Clean modern design using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the repository</p>
+
+```
+git clone git@github.com:Sauravpant/SmartChat.git
+```
+
+<p>2. Naviagte to the project folder</p>
+
+```
+cd smartchat
+```
+
+<p>3. Install dependencies</p>
+
+```
+npm install
+```
+
+<p>4. Get the Gemini API key from Google AI Studio and save in ..env file</p>
+
+```
+VITE_GEMINI_API_KEY= "your_api_key"
+```
+
+<p>5. Run locally</p>
+
+```
+npm run dev
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   JavaScript
+*   React
+*   Tailwind CSS
